@@ -1,0 +1,31 @@
+{
+  "name": "json-object-stream",
+  "version": "0.1.0",
+  "description": "Parse and/or stringify json streams",
+  "keywords": [
+    "json",
+    "stream",
+    "parse",
+    "stringify"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "through2": "~2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "~0.24.1",
+    "istanbul": "~0.3.17",
+    "mocha": "~2.2.5",
+    "should": "~7.0.1",
+    "readable-stream": "~2.0.1"
+  },
+  "scripts": {
+    "test": "istanbul cover -i 'index.js' -i 'src/parser.js' _mocha -- -R spec './**/*.test.js' && node_modules/.bin/eslint index.js src test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ketilovre/json-object-stream"
+  },
+  "author": "Ketil Øvrebø <ketilovre@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "comma-style": 2,
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "dot-location": [2, "property"],
+    "no-eq-null": 2,
+    "no-floating-decimal": 2,
+    "no-lonely-if": 1,
+    "no-unneeded-ternary": 1,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": [2, "nofunc"],
+    "quotes": [1, "single", "avoid-escape"],
+    "space-after-keywords": [1, "always"],
+    "strict": [2, "global"]
+  }
+}
