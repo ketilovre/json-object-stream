@@ -2,7 +2,7 @@
 
 var jos = require('../');
 var helpers = require('./helpers');
-var Readable = require('readable-stream').Readable;
+var Readable = require('stream').Readable;
 
 describe('stringify', function() {
 
