@@ -65,7 +65,11 @@ module.exports = function() {
   }
 
   function createObject() {
-    output.push(JSON.parse(buffer));
+    try{
+      output.push(JSON.parse(buffer));
+    }catch(e){
+      console.warn('Error input string:',e);
+    }
     buffer = '';
     depth = 0;
   }
