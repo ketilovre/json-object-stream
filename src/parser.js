@@ -20,10 +20,12 @@ module.exports = function() {
         mode = OBJECT;
         depth++;
         buffer += chunk[0];
+        chunk = chunk.slice(1);
       } else {
-        throw new Error("Expected first character to be '{' or '['");
+        console.warn("Expected first character to be '{' or '['");
+        chunk = [];
       }
-      chunk = chunk.slice(1);
+
     }
     for (var i = 0, l = chunk.length; i < l; i++) {
       var char = chunk[i];

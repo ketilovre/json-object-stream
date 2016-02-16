@@ -1,5 +1,5 @@
 {
-  "name": "json-object-stream",
+  "name": "json-of-stream",
   "version": "0.1.1",
   "description": "Parse and/or stringify json streams",
   "keywords": [
@@ -21,8 +21,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ketilovre/json-object-stream"
+    "url": "https://github.com/plotozhu/json-object-stream.git"
   },
-  "author": "Ketil Øvrebø <ketilovre@gmail.com>",
+  "author": "qizhong ploto_zhu@aliyun.com",
   "license": "MIT"
 }
