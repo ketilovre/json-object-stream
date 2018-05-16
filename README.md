@@ -57,7 +57,7 @@ Takes a stream in `ObjectMode` containing json documents, and stringifies them, 
 ```javascript
 var jos = require('json-object-stream');
 
-stream.pipe(jos.stringify()).pipe(jos.toBufferStream)
+stream.pipe(jos.stringify()).pipe(jos.toBufferStream())
 ```
 
 Simple helper for turning `ObjectMode` off.
